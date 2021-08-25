@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Document</title>
+    <style>
+        .box {
+            flex-grow: 1;
+            width: 100px;
+            height: 100px;
+        }
+
+        .box:first-child {
+            flex-grow: 0.5;
+            background-color: orange;
+        }
+
+        .box:nth-child(2) {
+            flex-grow: 1.5;
+            background-color: rgb(4, 59, 59);
+        }
+
+        .box.last-child {
+            background-color: blue;
+            flex-grow: 2;
+        }
+
+        .my-flex {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            height: 100vh;
+            width: 100vh;
+            flex-direction:vertical;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="my-flex">
+        <div class="box">
+
+
+        </div>
+        <div class="box">
+
+        </div>
+        <div class="box">
+            
+
+        </div>
+    </div>
+
+</body>
+
+</html>
