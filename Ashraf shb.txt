@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Ashraf shb ki taraqi ho gai.
+=======
+Ashraf ki taraqi khtam ho gai.
+>>>>>>> Testing
